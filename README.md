@@ -23,9 +23,9 @@ You can launch project in  default(production), dev, test profile. Please note b
 ```./gradlew clean build dockerBuildImage```
 
 ##REST documentation
-```http://localhost:8080:8888/swagger-ui/```
+```http://localhost:8080:8888/swagger-ui/``` .
 If you are running the app locally , then please use
-```http://LOCALHOST_OR_DOCKER_IP:PORT_ON_WHICH_APP_IS_RUNNING/swagger-ui.html```
+```http://LOCALHOST_OR_DOCKER_IP:PORT_ON_WHICH_APP_IS_RUNNING/swagger-ui.html``` .
 
 Next in swagger gui you can visit search-controller, food-truck-controller and food-item-controller to read API documentation
 
@@ -40,7 +40,7 @@ However, I recommend and personally prefer paginated results.
 
 
 ##API Monitoring
-```http://localhost:8080/hystrix/monitor?stream=http%3A%2F%2Flocalhost:8080%2Fhystrix.stream&title=Monitor%20API%20Calls```
+```http://localhost:8080/hystrix/monitor?stream=http%3A%2F%2Flocalhost:8080%2Fhystrix.stream&title=Monitor%20API%20Calls``` .
 
 
 ##Health/Monitoring
