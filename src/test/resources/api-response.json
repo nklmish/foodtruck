@@ -1,0 +1,30 @@
+[ {
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-122.409568315537",
+    "latitude" : "37.7831754345113"
+  },
+  "status" : "APPROVED",
+  "expirationdate" : "2016-03-15T00:00:00",
+  "permit" : "13MFF-0115",
+  "block" : "0342",
+  "received" : "Jul 25 2013  2:23PM",
+  "facilitytype" : "Push Cart",
+  "blocklot" : "0342001",
+  "locationdescription" : "MARKET ST: MASON ST \\ TURK ST to 06TH ST \\ GOLDEN GATE AVE \\ TAYLOR ST (950 - 998) -- NORTH --",
+  "cnn" : "8749201",
+  "priorpermit" : "0",
+  "approved" : "2015-03-26T11:29:21",
+  "schedule" : "http://bsm.sfdpw.org/PermitsTracker/reports/report.aspx?title=schedule&report=rptSchedule&params=permit=13MFF-0115&ExportPDF=1&Filename=13MFF-0115_schedule.pdf",
+  "address" : "954 MARKET ST",
+  "applicant" : "Yummy Hot Dogs",
+  "lot" : "001",
+  "fooditems" : "Hot dogs: pretzels: chips: juices and cold drinks",
+  "longitude" : "-122.409568315547",
+  "latitude" : "37.7831754207336",
+  "objectid" : "502312",
+  "y" : "2113263.691",
+  "dayshours" : "Tu/Th/Sa:10AM-7PM",
+  "x" : "6009859.555"
+}
+]
