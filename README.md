@@ -22,6 +22,25 @@ You can launch project in  default(production), dev, test profile. Please note b
 ## Building docker image
 ```./gradlew clean build dockerBuildImage```
 
+### Running docker image
+* ```docker run --name mymongodb -d mongo```
+* ```docker run -i -t -d --name foodtruck --link mymongodb:mongodb -p 8080:8080 nklmish/foodtruck:latest```
+* ```docker run -d --name swagger-ui-foodtruck-backbone-swagger -p 8888:8888 -e "API_URL=http://LOCALHOST_OR_DOCKER_IP:8080/v2/api-docs/" sjeandeaux/docker-swagger-ui```
+
+
+NOTE: By default app starts on port 8080
+
+#gradle.properties
+Please create/update your's ```gradle.properties``` file to include docker's IP address. E.g. <br/>
+For Mac Users: 
+```
+dockerServerUrl=https://<REPLACE_WITH_DOCKER_MACHINE_IP_ADDRESS>:2376/
+```
+For Linux Users: 
+```
+dockerServerUrl=unix:///var/run/docker.sock
+```
+
 ##REST documentation
 ```http://localhost:8080:8888/swagger-ui/``` .
 If you are running the app locally , then please use
